@@ -1,0 +1,1 @@
+java.util.Scanner是Java5后增添的新特征，可以通过其获取用户输入。

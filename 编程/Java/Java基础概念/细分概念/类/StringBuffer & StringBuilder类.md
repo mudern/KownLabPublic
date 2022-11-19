@@ -1,0 +1,3 @@
+对字符串的修改操作，需要使用StringBuffer & StringBuilder类，与string类不同，StringBuffer & StringBuilder类的对象能被多次修改，且不产生新的未使用对象。  
+在使用StringBuffer类时，每次都会对StingBuffer对象本身进行操作，且不生成新的对象，所以如果需要对字符串进行修改，应使用StringBuffer。  
+StringBuilder类与StringBuffer类不同在于其本身不是线程安全的（不能被同步访问），但其本身具有速度优势，所以一般情况建议使用StringBuilder类。
